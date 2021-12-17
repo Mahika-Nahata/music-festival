@@ -1,0 +1,75 @@
+/* Small LCD */
+@media screen and (max-width: 899px) {
+    .bestshots img {
+        width: 200px;
+        margin: 15px;
+    }
+    .venue {
+        padding: 80px 5%;
+    }
+    .centered h1{
+        font-size: 20px;
+    }
+    .centered h2{
+        font-size: 16px;
+    }
+    .ourteam img {
+        width: 200px !important;
+        margin: 15px !important;
+    }
+    .ourteam div {
+        padding: 0px 1% !important;
+        margin-bottom: 30px;
+    }
+    .emp-icon {
+        padding: 0px 5% !important;
+    }
+    .emp-icon > div {
+        padding: 6px 10px !important;        
+    }
+}
+/* Tablet */
+@media screen and (max-width: 680px) {
+    .emp-icon {
+        flex-direction: column;
+    }
+    .emp-icon > div {
+        margin-bottom: 20px !important;        
+    }
+    
+    section {
+        padding-top: 20vh;
+    }
+    .bestshots div {
+        padding: 0px 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bestshots img {
+        width: 250px;
+        margin: 15px;
+    }
+    .box {
+        width: 480px;
+    }
+    .ourteam div{
+        flex-direction: column;
+        align-items: center;
+    }
+    a {
+        font-size: 14px;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 500px) {
+    .box {
+        width: 350px;
+    }
+    .newsletter input {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .newsletter button {
+        padding: 13px 32px;
+    }
+}

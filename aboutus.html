@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicFest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,500&display=swap" rel="stylesheet">
+    <linK rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+        .ourteam {
+            text-align: center;
+        }
+        .ourteam div{
+            padding: 0px 3%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;           
+        }
+        .ourteam img{
+            width: 250px;
+            margin: 20px;            
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center !important;
+            padding: 10px 20px !important;
+            box-shadow: rgba(105, 7, 7, 0.219) 5px 8px;
+            border: rgba(165, 42, 42, 0.658) 2px solid;
+            margin-bottom: 20px;
+        }
+        .card p{
+            margin: 2px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>        
+        <div class="navbar">
+            <h1 style="color: #eae0d5; ">Mega<span style="color: #4a80a7;">Fest</span></h1>
+            <nav> 
+                <a href="./index.html">Home </a>
+                <span> | </span> 
+                <a href="./aboutus.html">About </a>
+                <span> | </span> 
+                <a href="./contactus.html">Contact Us</a>
+            </nav>
+        </div>        
+    </header> 
+    <div class="container">
+        <img src="./images/slider.jpg" width="100%"/>
+        <section class="centered">
+            <h1 style="font-size: 38px;">MegaFest</h1>       
+        </section>
+    </div>
+           
+    <main>
+        <div class="about">
+            <h1>ABOUT MegaFest</h1>
+            <hr>
+            <p>Team KhidMat, CSR Club of Department of Business Studies, Manav Rachna International Institute of Research and Studies, cordially invites your participation for Musolaza- Music Competition under AagMann.</p>
+        </div>        
+        <div class="ourteam">
+            <h1>Our Team</h1>
+            <hr>
+            <div>
+                <div class="card">
+                    <img src="./images/team1.jpg">
+                    <p>Name: <b> Jhonny</b></p>
+                    <p>Age: <b>20</b></p>
+                </div>
+                <div class="card">
+                    <img src="./images/team2.jpg">
+                    <p>Name: <b> Emilie</b></p>
+                    <p>Age: <b> 24</b></p>
+                </div>
+                <div class="card">
+                    <img src="./images/team3.jpg">
+                    <p>Name: <b> Russell</b></p>
+                    <p>Age: <b> 35</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <h2>Subscribe to our newsletter to get updates</h2>
+            <form>
+                <input placeholder="write your email here...">
+                <button>Send us</button>
+            </form>
+        </div>
+    </main>
+    <footer>Copyrights &copy; Mahika Nahata</footer>
+</body>
+</html>
