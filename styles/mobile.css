@@ -63,7 +63,7 @@
 /* Mobile */
 @media screen and (max-width: 500px) {
     .box {
-        width: 350px;
+        width: 240px;
     }
     .newsletter input {
         padding: 10px;
@@ -71,5 +71,11 @@
     }
     .newsletter button {
         padding: 13px 32px;
+    }
+    .container img{
+        margin-top: 81px;
+    }
+    i, .centered h2{
+        display: none;
     }
 }
