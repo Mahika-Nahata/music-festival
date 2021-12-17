@@ -75,7 +75,11 @@
     .container img{
         margin-top: 81px;
     }
-    i, .centered h2{
+    nav span, i, .centered h2{
         display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
     }
 }
